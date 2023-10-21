@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("WhatsApp\ Image\ 2023-10-21\ at\ 10.56.57\ AM.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+    
+  }
+  
+  .calculator {
+    text-align: 400px;
+    display: inline-block; /* Center the calculator horizontally */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: transparent
+  }
+  .table{
+    top: 270;
+    bottom: 270;
+    left: 300;
+    right: 350;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    background-color: rgb(29, 128, 210);
+    color: white;
+    border: 2px solid black;
+  }
+  
+  input[type=text] {
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: bolder;
+    margin: 20px !important;
+  }
